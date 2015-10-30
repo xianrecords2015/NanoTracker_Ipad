@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B78522051BE2F95C0044170D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522041BE2F95C0044170D /* main.m */; };
+		B78522081BE2F95C0044170D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522071BE2F95C0044170D /* AppDelegate.m */; };
+		B785220B1BE2F95C0044170D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B785220A1BE2F95C0044170D /* ViewController.m */; };
+		B785220E1BE2F95C0044170D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B785220C1BE2F95C0044170D /* Main.storyboard */; };
+		B78522101BE2F95C0044170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B785220F1BE2F95C0044170D /* Assets.xcassets */; };
+		B78522131BE2F95C0044170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78522111BE2F95C0044170D /* LaunchScreen.storyboard */; };
+		B785221E1BE2F95C0044170D /* NanoTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B785221D1BE2F95C0044170D /* NanoTrackerTests.m */; };
+		B78522291BE2F95C0044170D /* NanoTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522281BE2F95C0044170D /* NanoTrackerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B785221A1BE2F95C0044170D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78521F81BE2F95C0044170D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78521FF1BE2F95C0044170D;
+			remoteInfo = NanoTracker;
+		};
+		B78522251BE2F95C0044170D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78521F81BE2F95C0044170D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78521FF1BE2F95C0044170D;
+			remoteInfo = NanoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78522001BE2F95C0044170D /* NanoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78522041BE2F95C0044170D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78522061BE2F95C0044170D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B78522071BE2F95C0044170D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B78522091BE2F95C0044170D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B785220A1BE2F95C0044170D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B785220D1BE2F95C0044170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B785220F1BE2F95C0044170D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78522121BE2F95C0044170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B78522141BE2F95C0044170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78522191BE2F95C0044170D /* NanoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B785221D1BE2F95C0044170D /* NanoTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoTrackerTests.m; sourceTree = "<group>"; };
+		B785221F1BE2F95C0044170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78522241BE2F95C0044170D /* NanoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78522281BE2F95C0044170D /* NanoTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoTrackerUITests.m; sourceTree = "<group>"; };
+		B785222A1BE2F95C0044170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78521FD1BE2F95C0044170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522161BE2F95C0044170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522211BE2F95C0044170D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B78521F71BE2F95C0044170D = {
+			isa = PBXGroup;
+			children = (
+				B78522021BE2F95C0044170D /* NanoTracker */,
+				B785221C1BE2F95C0044170D /* NanoTrackerTests */,
+				B78522271BE2F95C0044170D /* NanoTrackerUITests */,
+				B78522011BE2F95C0044170D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78522011BE2F95C0044170D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78522001BE2F95C0044170D /* NanoTracker.app */,
+				B78522191BE2F95C0044170D /* NanoTrackerTests.xctest */,
+				B78522241BE2F95C0044170D /* NanoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B78522021BE2F95C0044170D /* NanoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B78522061BE2F95C0044170D /* AppDelegate.h */,
+				B78522071BE2F95C0044170D /* AppDelegate.m */,
+				B78522091BE2F95C0044170D /* ViewController.h */,
+				B785220A1BE2F95C0044170D /* ViewController.m */,
+				B785220C1BE2F95C0044170D /* Main.storyboard */,
+				B785220F1BE2F95C0044170D /* Assets.xcassets */,
+				B78522111BE2F95C0044170D /* LaunchScreen.storyboard */,
+				B78522141BE2F95C0044170D /* Info.plist */,
+				B78522031BE2F95C0044170D /* Supporting Files */,
+			);
+			path = NanoTracker;
+			sourceTree = "<group>";
+		};
+		B78522031BE2F95C0044170D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B78522041BE2F95C0044170D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B785221C1BE2F95C0044170D /* NanoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B785221D1BE2F95C0044170D /* NanoTrackerTests.m */,
+				B785221F1BE2F95C0044170D /* Info.plist */,
+			);
+			path = NanoTrackerTests;
+			sourceTree = "<group>";
+		};
+		B78522271BE2F95C0044170D /* NanoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B78522281BE2F95C0044170D /* NanoTrackerUITests.m */,
+				B785222A1BE2F95C0044170D /* Info.plist */,
+			);
+			path = NanoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78521FF1BE2F95C0044170D /* NanoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B785222D1BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTracker" */;
+			buildPhases = (
+				B78521FC1BE2F95C0044170D /* Sources */,
+				B78521FD1BE2F95C0044170D /* Frameworks */,
+				B78521FE1BE2F95C0044170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoTracker;
+			productName = NanoTracker;
+			productReference = B78522001BE2F95C0044170D /* NanoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B78522181BE2F95C0044170D /* NanoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78522301BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerTests" */;
+			buildPhases = (
+				B78522151BE2F95C0044170D /* Sources */,
+				B78522161BE2F95C0044170D /* Frameworks */,
+				B78522171BE2F95C0044170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B785221B1BE2F95C0044170D /* PBXTargetDependency */,
+			);
+			name = NanoTrackerTests;
+			productName = NanoTrackerTests;
+			productReference = B78522191BE2F95C0044170D /* NanoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B78522231BE2F95C0044170D /* NanoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78522331BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerUITests" */;
+			buildPhases = (
+				B78522201BE2F95C0044170D /* Sources */,
+				B78522211BE2F95C0044170D /* Frameworks */,
+				B78522221BE2F95C0044170D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78522261BE2F95C0044170D /* PBXTargetDependency */,
+			);
+			name = NanoTrackerUITests;
+			productName = NanoTrackerUITests;
+			productReference = B78522241BE2F95C0044170D /* NanoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78521F81BE2F95C0044170D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Christian Joly";
+				TargetAttributes = {
+					B78521FF1BE2F95C0044170D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B78522181BE2F95C0044170D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B78521FF1BE2F95C0044170D;
+					};
+					B78522231BE2F95C0044170D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B78521FF1BE2F95C0044170D;
+					};
+				};
+			};
+			buildConfigurationList = B78521FB1BE2F95C0044170D /* Build configuration list for PBXProject "NanoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B78521F71BE2F95C0044170D;
+			productRefGroup = B78522011BE2F95C0044170D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78521FF1BE2F95C0044170D /* NanoTracker */,
+				B78522181BE2F95C0044170D /* NanoTrackerTests */,
+				B78522231BE2F95C0044170D /* NanoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78521FE1BE2F95C0044170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78522131BE2F95C0044170D /* LaunchScreen.storyboard in Resources */,
+				B78522101BE2F95C0044170D /* Assets.xcassets in Resources */,
+				B785220E1BE2F95C0044170D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522171BE2F95C0044170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522221BE2F95C0044170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78521FC1BE2F95C0044170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B785220B1BE2F95C0044170D /* ViewController.m in Sources */,
+				B78522081BE2F95C0044170D /* AppDelegate.m in Sources */,
+				B78522051BE2F95C0044170D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522151BE2F95C0044170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B785221E1BE2F95C0044170D /* NanoTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78522201BE2F95C0044170D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78522291BE2F95C0044170D /* NanoTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B785221B1BE2F95C0044170D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78521FF1BE2F95C0044170D /* NanoTracker */;
+			targetProxy = B785221A1BE2F95C0044170D /* PBXContainerItemProxy */;
+		};
+		B78522261BE2F95C0044170D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78521FF1BE2F95C0044170D /* NanoTracker */;
+			targetProxy = B78522251BE2F95C0044170D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B785220C1BE2F95C0044170D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B785220D1BE2F95C0044170D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B78522111BE2F95C0044170D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78522121BE2F95C0044170D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B785222B1BE2F95C0044170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B785222C1BE2F95C0044170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B785222E1BE2F95C0044170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B785222F1BE2F95C0044170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B78522311BE2F95C0044170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NanoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoTracker.app/NanoTracker";
+			};
+			name = Debug;
+		};
+		B78522321BE2F95C0044170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NanoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoTracker.app/NanoTracker";
+			};
+			name = Release;
+		};
+		B78522341BE2F95C0044170D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NanoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NanoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B78522351BE2F95C0044170D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NanoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NanoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78521FB1BE2F95C0044170D /* Build configuration list for PBXProject "NanoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B785222B1BE2F95C0044170D /* Debug */,
+				B785222C1BE2F95C0044170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B785222D1BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B785222E1BE2F95C0044170D /* Debug */,
+				B785222F1BE2F95C0044170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B78522301BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78522311BE2F95C0044170D /* Debug */,
+				B78522321BE2F95C0044170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B78522331BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78522341BE2F95C0044170D /* Debug */,
+				B78522351BE2F95C0044170D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78521F81BE2F95C0044170D /* Project object */;
+}
