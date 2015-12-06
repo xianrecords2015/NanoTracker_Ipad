@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70171181C1251A900D302AC /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70171171C1251A900D302AC /* GraphViewController.m */; };
+		B70171281C12569600D302AC /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B70171271C12544600D302AC /* libCorePlot-CocoaTouch.a */; };
+		B701712C1C12583A00D302AC /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B701712B1C12583A00D302AC /* CoreBluetooth.framework */; };
+		B701712E1C12584200D302AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B701712D1C12584200D302AC /* CoreGraphics.framework */; };
+		B70171301C12584B00D302AC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B701712F1C12584B00D302AC /* Accelerate.framework */; };
+		B70171321C12586000D302AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70171311C12586000D302AC /* QuartzCore.framework */; };
+		B70171341C12586B00D302AC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70171331C12586B00D302AC /* OpenGLES.framework */; };
+		B70171361C12587700D302AC /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70171351C12587700D302AC /* SceneKit.framework */; };
+		B7372EB31BE32AE20027070C /* Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B7372EB21BE32AE20027070C /* Tracker.m */; };
+		B7372EB51BE527AB0027070C /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7372EB41BE527AB0027070C /* TabController.m */; };
 		B78522051BE2F95C0044170D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522041BE2F95C0044170D /* main.m */; };
 		B78522081BE2F95C0044170D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522071BE2F95C0044170D /* AppDelegate.m */; };
 		B785220B1BE2F95C0044170D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B785220A1BE2F95C0044170D /* ViewController.m */; };
@@ -15,9 +25,27 @@
 		B78522131BE2F95C0044170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78522111BE2F95C0044170D /* LaunchScreen.storyboard */; };
 		B785221E1BE2F95C0044170D /* NanoTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B785221D1BE2F95C0044170D /* NanoTrackerTests.m */; };
 		B78522291BE2F95C0044170D /* NanoTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522281BE2F95C0044170D /* NanoTrackerUITests.m */; };
+		B78522381BE2FBB30044170D /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78522371BE2FBB30044170D /* DataViewController.m */; };
+		B785223A1BE2FEB60044170D /* circle_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B78522391BE2FEB60044170D /* circle_blue.png */; };
+		B785223C1BE2FEC30044170D /* redcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = B785223B1BE2FEC30044170D /* redcircle.png */; };
+		B785223F1BE2FF3C0044170D /* BleController.m in Sources */ = {isa = PBXBuildFile; fileRef = B785223E1BE2FF3C0044170D /* BleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B70171261C12544600D302AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70171201C12544600D302AC /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		B70171291C1257BD00D302AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70171201C12544600D302AC /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
 		B785221A1BE2F95C0044170D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B78521F81BE2F95C0044170D /* Project object */;
@@ -35,6 +63,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B70171171C1251A900D302AC /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		B70171191C1251DB00D302AC /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		B70171201C12544600D302AC /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "core-plot-release-2.0/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		B701712B1C12583A00D302AC /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B701712D1C12584200D302AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B701712F1C12584B00D302AC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B70171311C12586000D302AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B70171331C12586B00D302AC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B70171351C12587700D302AC /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		B7372EB11BE32AE20027070C /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		B7372EB21BE32AE20027070C /* Tracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tracker.m; sourceTree = "<group>"; };
+		B7372EB41BE527AB0027070C /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+		B7372EB61BE527FA0027070C /* TabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
 		B78522001BE2F95C0044170D /* NanoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78522041BE2F95C0044170D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B78522061BE2F95C0044170D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +92,12 @@
 		B78522241BE2F95C0044170D /* NanoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78522281BE2F95C0044170D /* NanoTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanoTrackerUITests.m; sourceTree = "<group>"; };
 		B785222A1BE2F95C0044170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78522361BE2FBA80044170D /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		B78522371BE2FBB30044170D /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		B78522391BE2FEB60044170D /* circle_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_blue.png; sourceTree = "<group>"; };
+		B785223B1BE2FEC30044170D /* redcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcircle.png; sourceTree = "<group>"; };
+		B785223D1BE2FF3C0044170D /* BleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleController.h; sourceTree = "<group>"; };
+		B785223E1BE2FF3C0044170D /* BleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70171361C12587700D302AC /* SceneKit.framework in Frameworks */,
+				B70171341C12586B00D302AC /* OpenGLES.framework in Frameworks */,
+				B70171321C12586000D302AC /* QuartzCore.framework in Frameworks */,
+				B70171301C12584B00D302AC /* Accelerate.framework in Frameworks */,
+				B701712E1C12584200D302AC /* CoreGraphics.framework in Frameworks */,
+				B701712C1C12583A00D302AC /* CoreBluetooth.framework in Frameworks */,
+				B70171281C12569600D302AC /* libCorePlot-CocoaTouch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +132,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B701711C1C1253C700D302AC /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				B70171201C12544600D302AC /* CorePlot-CocoaTouch.xcodeproj */,
+			);
+			name = CorePlot;
+			sourceTree = "<group>";
+		};
+		B70171211C12544600D302AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70171271C12544600D302AC /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B78521F71BE2F95C0044170D = {
 			isa = PBXGroup;
 			children = (
+				B70171351C12587700D302AC /* SceneKit.framework */,
+				B70171331C12586B00D302AC /* OpenGLES.framework */,
+				B70171311C12586000D302AC /* QuartzCore.framework */,
+				B701712F1C12584B00D302AC /* Accelerate.framework */,
+				B701712D1C12584200D302AC /* CoreGraphics.framework */,
+				B701712B1C12583A00D302AC /* CoreBluetooth.framework */,
+				B701711C1C1253C700D302AC /* CorePlot */,
 				B78522021BE2F95C0044170D /* NanoTracker */,
 				B785221C1BE2F95C0044170D /* NanoTrackerTests */,
 				B78522271BE2F95C0044170D /* NanoTrackerUITests */,
@@ -103,8 +180,18 @@
 			children = (
 				B78522061BE2F95C0044170D /* AppDelegate.h */,
 				B78522071BE2F95C0044170D /* AppDelegate.m */,
+				B7372EB11BE32AE20027070C /* Tracker.h */,
+				B7372EB21BE32AE20027070C /* Tracker.m */,
+				B785223D1BE2FF3C0044170D /* BleController.h */,
+				B785223E1BE2FF3C0044170D /* BleController.m */,
 				B78522091BE2F95C0044170D /* ViewController.h */,
 				B785220A1BE2F95C0044170D /* ViewController.m */,
+				B78522361BE2FBA80044170D /* DataViewController.h */,
+				B78522371BE2FBB30044170D /* DataViewController.m */,
+				B70171191C1251DB00D302AC /* GraphViewController.h */,
+				B70171171C1251A900D302AC /* GraphViewController.m */,
+				B7372EB61BE527FA0027070C /* TabController.h */,
+				B7372EB41BE527AB0027070C /* TabController.m */,
 				B785220C1BE2F95C0044170D /* Main.storyboard */,
 				B785220F1BE2F95C0044170D /* Assets.xcassets */,
 				B78522111BE2F95C0044170D /* LaunchScreen.storyboard */,
@@ -117,6 +204,8 @@
 		B78522031BE2F95C0044170D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B78522391BE2FEB60044170D /* circle_blue.png */,
+				B785223B1BE2FEC30044170D /* redcircle.png */,
 				B78522041BE2F95C0044170D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -154,6 +243,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B701712A1C1257BD00D302AC /* PBXTargetDependency */,
 			);
 			name = NanoTracker;
 			productName = NanoTracker;
@@ -207,6 +297,7 @@
 				TargetAttributes = {
 					B78521FF1BE2F95C0044170D = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 942NDUM9VG;
 					};
 					B78522181BE2F95C0044170D = {
 						CreatedOnToolsVersion = 7.1;
@@ -229,6 +320,12 @@
 			mainGroup = B78521F71BE2F95C0044170D;
 			productRefGroup = B78522011BE2F95C0044170D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B70171211C12544600D302AC /* Products */;
+					ProjectRef = B70171201C12544600D302AC /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B78521FF1BE2F95C0044170D /* NanoTracker */,
@@ -238,6 +335,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B70171271C12544600D302AC /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = B70171261C12544600D302AC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B78521FE1BE2F95C0044170D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -246,6 +353,8 @@
 				B78522131BE2F95C0044170D /* LaunchScreen.storyboard in Resources */,
 				B78522101BE2F95C0044170D /* Assets.xcassets in Resources */,
 				B785220E1BE2F95C0044170D /* Main.storyboard in Resources */,
+				B785223A1BE2FEB60044170D /* circle_blue.png in Resources */,
+				B785223C1BE2FEC30044170D /* redcircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B785223F1BE2FF3C0044170D /* BleController.m in Sources */,
+				B70171181C1251A900D302AC /* GraphViewController.m in Sources */,
+				B7372EB31BE32AE20027070C /* Tracker.m in Sources */,
+				B78522381BE2FBB30044170D /* DataViewController.m in Sources */,
 				B785220B1BE2F95C0044170D /* ViewController.m in Sources */,
+				B7372EB51BE527AB0027070C /* TabController.m in Sources */,
 				B78522081BE2F95C0044170D /* AppDelegate.m in Sources */,
 				B78522051BE2F95C0044170D /* main.m in Sources */,
 			);
@@ -295,6 +409,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B701712A1C1257BD00D302AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = B70171291C1257BD00D302AC /* PBXContainerItemProxy */;
+		};
 		B785221B1BE2F95C0044170D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B78521FF1BE2F95C0044170D /* NanoTracker */;
@@ -413,10 +532,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/core-plot-release-2.0/framework/**";
 				INFOPLIST_FILE = NanoTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTracker;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnils.ntipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -424,10 +550,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/core-plot-release-2.0/framework/**";
 				INFOPLIST_FILE = NanoTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.josselin.NanoTracker;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnils.ntipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -498,6 +631,7 @@
 				B785222F1BE2F95C0044170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B78522301BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +640,7 @@
 				B78522321BE2F95C0044170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B78522331BE2F95C0044170D /* Build configuration list for PBXNativeTarget "NanoTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +649,7 @@
 				B78522351BE2F95C0044170D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
